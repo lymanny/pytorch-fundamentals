@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+
+# PyCharm
+.idea/
+
+# Environment Variables
+.env
+
+# PyTorch Models
+*.pth
+*.pt
+checkpoints/
+
+# Datasets and Training Outputs
+data/
+datasets/
+runs/
+outputs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
