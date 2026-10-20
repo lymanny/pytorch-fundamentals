@@ -3,7 +3,7 @@ import numpy as np
 import torch
 
 # ==================================================
-# Lesson 07: NumPy and Tensor Conversion
+# NumPy and Tensor Conversion
 # ==================================================
 
 # NumPy -> Tensor: Converts a NumPy array to a tensor.

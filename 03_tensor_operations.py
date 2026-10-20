@@ -2,7 +2,7 @@
 import torch
 
 # ==================================================
-# Lesson 01: Basic Operations and Statistical Functions
+# Basic Operations and Statistical Functions
 # ==================================================
 
 # Basic Operations:

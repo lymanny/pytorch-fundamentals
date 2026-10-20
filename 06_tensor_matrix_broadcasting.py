@@ -1,7 +1,7 @@
 import torch
 
 # ==================================================
-# Lesson 06: Matrix Multiplication and Broadcasting
+# Matrix Multiplication and Broadcasting
 # ==================================================
 
 # Matrix Multiplication:

@@ -2,7 +2,7 @@
 import torch
 
 # ==================================================
-# Lesson 01: Tensor Creation, Shape, Dtype, Device
+# Tensor Creation, Shape, Dtype, Device
 # ==================================================
 
 # Tensor:

@@ -2,7 +2,7 @@
 import torch
 
 # ==================================================
-# Lesson 01: Tensor Indexing and Slicing
+# Tensor Indexing and Slicing
 # ==================================================
 
 # Indexing:

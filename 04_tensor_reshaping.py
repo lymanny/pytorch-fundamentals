@@ -2,7 +2,7 @@
 import torch
 
 # ==================================================
-# Lesson 01: Tensor Reshaping
+# Tensor Reshaping
 # ==================================================
 
 # Tensor Reshaping:
