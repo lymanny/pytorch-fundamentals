@@ -58,14 +58,18 @@ print("Loss:", loss.item())  # 16.0
 # 4. Calculate Gradient (Autograd)
 # ==================================================
 
-# Autograd only calculates gradients.
-# It does not update model weights.
+# Before backward(): Gradient has not been calculated.
+print("\nBefore backward:", weight.grad)  # None
+
+# Autograd calculates the gradient.
+# It does not update the model weight.
 loss.backward()
 
-# Gradient = -16
+# After backward(): Gradient is stored in weight.grad.
+print("After backward:", weight.grad.item())  # -16.0
+
 # Negative gradient means increasing the weight
 # slightly would reduce the loss.
-print("Gradient:", weight.grad.item())  # -16.0
 
 
 # ==================================================
@@ -74,7 +78,7 @@ print("Gradient:", weight.grad.item())  # -16.0
 
 # The weight remains unchanged after backward().
 # Updating the weight is the optimizer's job.
-print("Weight:", weight.item())  # 3.0
+print("\nWeight:", weight.item())  # 3.0
 
 
 # ==================================================
