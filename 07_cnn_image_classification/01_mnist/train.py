@@ -165,7 +165,7 @@ print("TensorBoard Logs:", log_dir)
 # ==================================================
 
 # Step 1: Open the PyCharm terminal in the project root.
-# Step 2: Run the command: tensorboard --logdir=runs
+# Step 2: Run the command: tensorboard --logdir=runs (both), runs/mnist (MNIST), or runs/cifar10 (CIFAR-10).
 # Step 3: Open http://localhost:6006/ in your browser.
 # Step 4: View the Loss/Training and Accuracy/Training graphs.
 # Step 5: Press Ctrl + C in the terminal to stop TensorBoard.
